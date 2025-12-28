@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# OS
+.DS_Store
+
+# Outputs (dal tuo script)
+hd_calibration/
+hd_diagnostics/
+hd_sparse_calibration_eval/
+hd_lopo_eval/
+
+*.csv
+*.png
+
+# Dati grezzi (spesso meglio NON versionarli)
+*.xlsx
+*.xls
+
+# Logs
+*.log
